@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+
+   
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+header{
+background-image: url("images/banner.jpg");
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgb(1, 10, 50, 0.3);
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;;
+
+}
+
+.nav-link{
+    color:white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s ;
+}
+
+.nav-link:hover{
+   background-color: #2980b9;
+   color: white;
+   transform:scale(1.1)
+}
+
+.banner-container h1{
+    font-size: 60px;
+    font-weight: 700;
+    background-color: rgba(7, 101, 189, 0.5);
+    border: 1px solid rgb(12, 211, 225);
+    border-radius: 10px;
+    font-family: "Merriweather", serif;
+   
+}
+
+/* ! Feature Section Start  */
+.varsity-features{
+    padding: 1px 5px;
+    background-color: #77E4C8;
+}
+.feature-btn{
+    color: white;
+}
+.feature-column{
+    background-color: #77E4C8;
+    border: 1px solid #3FA2F6;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin: 20px 0px;
+    transition: 0.4s;
+    background-color: #36C2CE;
+}
+
+.feature-column:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px 5px black;
+}
+
+.section-title {
+    font-weight: bolder;
+}
+
+.icon-style{
+    color: white;
+    padding:10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+a:hover{
+transform: scale(1.2);
+}
+/* ! Feature Section End  */
+
+
+
+/* ! Mission Section Start  */
+.mission-vision{
+    background-color: #F7F9F2;
+}
+
+.card{
+    border: 1px solid #3FA2F6;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin: 20px 0px;
+    transition: 0.4s;
+    /* background-color: #36C2CE; */
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px 5px black;
+    transition: 0.4s;
+}
+
+.feedback-div{
+    background-color: #E8C5E5;
+}
+
+.feedback-image{
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.carousel-item{
+    text-align: center;
+    padding: 2% 20%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.contact-form{
+    background-color: #EEEEEE;
+}
